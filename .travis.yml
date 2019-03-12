@@ -13,7 +13,7 @@ after_success:
   - docker build -t lcsfreund/multi-client ./client
   - docker build -t lcsfreund/multi-nginx ./nginx
   - docker build -t lcsfreund/multi-server ./server
-  - docker build -t lcsfreund/multi-server ./worker
+  - docker build -t lcsfreund/multi-worker ./worker
   
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin # Piping the password prevents it from showing up in logs
 
