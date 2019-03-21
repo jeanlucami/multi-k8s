@@ -28,7 +28,7 @@
       "hostname": "nginx",
       "essential": true,
       "memory": 128,
-      "port_mappings": [
+      "portMappings": [
         {
           "host_port": 80,
           "container_port": 80
