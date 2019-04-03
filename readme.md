@@ -1,1 +1,1 @@
-# Deploying Multiple Micro Services with Docker, Docker Compose, Travis, Github and AWS
+# Deploying Multiple Micro Services with Docker, Kubernetes, Travis, Github and Google Cloud
